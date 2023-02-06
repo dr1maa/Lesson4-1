@@ -10,7 +10,7 @@ class Main
         List<Temp> reverse = new ArrayList<>(list.size());//временный списолк
 
         new LinkedList<>(list)
-                .descendingIterator() //обратный последовательный поток
+                .descendingIterator() //обратный последовательный поток вкава
                 .forEachRemaining(reverse::add);
 
         return reverse;
